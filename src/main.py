@@ -40,7 +40,6 @@ def main():
     # clear both arrays
     spannungsmessung1.clear()
     spannungsmessung2.clear()
-#    sleep_ms(15) # wait 15 ms if delay is too short (deactivated) 
     durchschnitt_spannung=(spannung_1 + spannung_2) / 2
     # round on whole numbers
     durchschnitt_spannung=str("%1.0f" % durchschnitt_spannung)
