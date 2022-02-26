@@ -44,7 +44,7 @@ class Utility:
     return float(val)
 
   def average(value1, value2, value3):
-    return (value1+value2+value3) / 2
+    return (value1+value2+value3) / 3
 
 def rotation(port, p, s):
   wert = 0
